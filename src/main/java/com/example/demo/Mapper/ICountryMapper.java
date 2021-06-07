@@ -9,9 +9,9 @@ import com.example.demo.dto.CountryDTO;
 import com.example.demo.entity.Country;
 
 @Mapper
-public interface CountryMapper {
+public interface ICountryMapper {
 
-	CountryMapper INSTANCE = Mappers.getMapper(CountryMapper.class);
+	ICountryMapper INSTANCE = Mappers.getMapper(ICountryMapper.class);
 
 	public Country countryDTOToCountry(CountryDTO countryDTO);
 

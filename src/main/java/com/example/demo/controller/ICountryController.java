@@ -16,6 +16,6 @@ public interface ICountryController {
 	public List<CountryDTO> findAll();
 	
 	@PostMapping("/")
-	public CountryDTO save(@RequestBody CountryDTO country);
+	public CountryDTO save(@RequestBody CountryDTO countryDTO);
 	
 }

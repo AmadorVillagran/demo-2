@@ -21,8 +21,8 @@ public class CountryControllerImpl implements ICountryController {
 	}
 
 	@Override
-	public CountryDTO save(CountryDTO country) {
-		return countryService.save(country);
+	public CountryDTO save(CountryDTO countryDTO) {
+		return countryService.save(countryDTO);
 	}
 
 }
